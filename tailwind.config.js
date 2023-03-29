@@ -7,7 +7,7 @@ module.exports = {
     "./assets/**/*.css",
     "./plugins/**/*.{js,ts}",
     "./nuxt.config.{js,ts}",
-    "./app.vue"
+    "./app.vue",
   ],
   theme: {
     screens: {
@@ -20,12 +20,12 @@ module.exports = {
 
     extend: {
       colors: {
-        primary: '#363D47',
-        secondary: '#349898',
-        'secondary-light': '#9BDAD6',
-        gray: '#ADAFA6',
-        'gray-light': '#F6F5F1',
-        accent: '#FDBD31',
+        primary: "#363D47",
+        secondary: "#349898",
+        "secondary-light": "#9BDAD6",
+        gray: "#ADAFA6",
+        "gray-light": "#F6F5F1",
+        accent: "#FDBD31",
       },
     },
   },
