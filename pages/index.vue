@@ -85,9 +85,14 @@ const icons = reactive([
       </div>
     </div>
     <!-- end First Section-->
-    <cuba-welcome />
-    <!-- Second Section -->
 
+    <!-- Second Section -->
+    <cuba-welcome />
     <!-- end Second Section-->
+
+    <!-- Thrid Section-->
+    <download-application />
+    <!-- end Thrid Section-->
+
   </div>
 </template>
