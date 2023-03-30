@@ -10,4 +10,7 @@
   .top-bar {
     @apply lg:px-24 px-10 pt-5 h-24;
   }
+  button.secondary {
+    @apply w-full xs:w-fit lg:text-2xl font-bold text-primary bg-white h-20 px-12 py-[10px] rounded-lg border-primary border-[2px];
+  }
 }
