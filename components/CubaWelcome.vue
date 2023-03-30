@@ -6,13 +6,13 @@
     />
     <div class="relative grid grid-cols-12 mt-16">
       <div
-        class="absolute col-span-10 col-start-2 sm:col-span-6 leading-[60px] sm:col-start-2 text-4xl sm:text-5xl bottom-0 h-[60vh] bg-accent opacity-70 p-12"
+        class="absolute col-span-10 col-start-2 md:col-span-6 leading-[60px] md:col-start-2 text-xl md:text-5xl bottom-0 h-[60vh] bg-accent opacity-70 p-12"
       >
         <p class="text-primary">
           <span class="font-bold"> ¿Va a visitar a Cuba pronto?</span> Conozca
           que debe tener en cuenta para su visita.
         </p>
-        <div class="absolute bottom-10 w-full translate-x-1/3">
+        <div class="absolute bottom-10 w-full md:translate-x-1/3">
           <button>
             <img src="/static/icons/arrow-button.svg" alt="" />
           </button>
