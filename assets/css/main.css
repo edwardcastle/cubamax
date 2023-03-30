@@ -3,4 +3,11 @@
 @tailwind utilities;
 
 @layer utilities {
+    .card {
+        @apply p-5 min-h-fit min-w-fit h-52 w-52 rounded-3xl border-black border-[2px] cursor-pointer;
+    }
+
+    .top-bar {
+        @apply px-16 py-[58px] h-[200px];
+    }
 }

@@ -1,12 +1,10 @@
 <template>
   <!-- App -->
-  <div class="min-h-screen">
-    <div class="">
+    <div class="min-h-full">
       <!-- Main content -->
-      <main class="col-span-12 md:col-span-8 xl:col-span-6">
+      <main class="">
         <router-view />
       </main>
       <!-- End Main content -->
     </div>
-  </div>
 </template>
