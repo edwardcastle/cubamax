@@ -45,9 +45,9 @@ const socialMedia = ref([
     <div class="md:flex items-center max-w-7xl text-center mx-auto">
       <div class="md:w-1/2 w-full pt-5 xs:pt-16">
         <ul class="inline-flex gap-x-4">
-          <li><img src="static/icons/palm2.svg" /></li>
-          <li><img src="static/icons/envelope.svg" /></li>
-          <li><img src="static/icons/location.svg" /></li>
+          <li><img src="/static/icons/palm2.svg" /></li>
+          <li><img src="/static/icons/envelope.svg" /></li>
+          <li><img src="/static/icons/location.svg" /></li>
         </ul>
       </div>
       <div class="md:w-1/2 w-full mt-10 md:mt-0">

@@ -35,7 +35,7 @@ const services = ref([
 
 <template>
   <div class="justify-center mt-10">
-    <img src="static/icons/cubamax-services.svg" alt="" />
+    <img src="/static/icons/cubamax-services.svg" alt="" />
     <div class="mt-10">
       <ul
         class="mx-auto text-center flex-col align-middle content-center"
@@ -43,7 +43,7 @@ const services = ref([
         :key="service.id"
       >
         <li class="flex self-center mt-8">
-          <img :src="`static/icons/${service.icon}`" alt="" />
+          <img :src="`/static/icons/${service.icon}`" alt="" />
           <p class="ml-7">{{ service.name }}</p>
         </li>
         <li class="mt-10" v-if="service.id === 0">
@@ -55,7 +55,7 @@ const services = ref([
       </ul>
     </div>
     <div class="mt-5">
-      <img src="static/icons/cubamax-tienda.svg" alt="" />
+      <img src="/static/icons/cubamax-tienda.svg" alt="" />
     </div>
     <div class="text-center mt-6 space-y-3">
       <p>Contactenos</p>
