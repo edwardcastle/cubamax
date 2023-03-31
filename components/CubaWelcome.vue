@@ -1,12 +1,12 @@
 <template>
   <div class="h-screen">
     <img
-      class="object-cover w-full h-[80vh]"
-      src="https://images.unsplash.com/photo-1505904267569-f02eaeb45a4c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1908&q=80"
+      class="object-cover w-full h-[90vh]"
+      src="static/icons/havana.jpg"
     />
-    <div class="relative grid grid-cols-12 mt-16">
+    <div class="relative grid grid-cols-12 mt-28">
       <div
-        class="absolute col-span-10 col-start-2 md:col-span-6 leading-[60px] md:col-start-2 text-xl md:text-5xl bottom-0 h-[60vh] bg-accent opacity-70 p-12"
+        class="absolute md:p-24 col-span-10 col-start-2 md:col-span-6 leading-10 md:col-start-2 text-xl xs:text-5xl bottom-0 h-[50vh] bg-accent opacity-80 rounded-xl p-12"
       >
         <p class="text-primary">
           <span class="font-bold"> ¿Va a visitar a Cuba pronto?</span> Conozca
