@@ -38,12 +38,12 @@ const socialMedia = ref([
       </div>
     </div>
     <div class="grid grid-cols-12">
-      <div class="col-span-12 flex mx-auto my-20">
+      <div class="col-span-12 flex mx-auto my-5 xs:my-20">
         <img src="/static/icons/cubamax-in-charge.svg" alt="" />
       </div>
     </div>
     <div class="md:flex items-center max-w-7xl text-center mx-auto">
-      <div class="md:w-1/2 w-full pt-16">
+      <div class="md:w-1/2 w-full pt-5 xs:pt-16">
         <ul class="inline-flex gap-x-4">
           <li><img src="static/icons/palm2.svg" /></li>
           <li><img src="static/icons/envelope.svg" /></li>
@@ -53,7 +53,7 @@ const socialMedia = ref([
       <div class="md:w-1/2 w-full mt-10 md:mt-0">
         <p class="text-2xl">ENCUENTRANOS EN</p>
         <ul
-          class="inline-flex gap-x-4 mt-6"
+          class="inline-flex xs:gap-x-4 mt-6"
           v-for="social in socialMedia"
           :key="social.id"
         >
@@ -62,13 +62,20 @@ const socialMedia = ref([
           </li>
         </ul>
       </div>
-    </div>   
-    <div class="md:flex items-center max-w-7xl text-center mx-auto mt-24">
+    </div>
+    <div
+      class="md:flex items-center max-w-7xl text-center mx-auto mt-10 xs:mt-24"
+    >
       <div class="md:w-1/2 w-full">
-        <p class="text-lg text-primary">Términos y Condiciones    <span class="ml-5">Política de Privacidad</span> </p>
+        <p class="text-lg text-primary">
+          Términos y Condiciones
+          <span class="ml-5">Política de Privacidad</span>
+        </p>
       </div>
       <div class="md:w-1/2 w-full">
-        <p class="text-lg text-primary">© Cubamax 2022. Todos los derechos reservados</p>
+        <p class="text-lg text-primary">
+          © Cubamax 2022. Todos los derechos reservados
+        </p>
       </div>
     </div>
   </div>
