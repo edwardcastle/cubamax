@@ -4,13 +4,22 @@
 
 @layer utilities {
   .card {
-    @apply p-5 h-36 w-36 min-h-fit min-w-fit xs:h-52 xs:w-52 rounded-3xl border-black border-[2px] cursor-pointer;
+    @apply p-5 bg-white h-36 w-36 min-h-fit min-w-fit xs:h-52 xs:w-52 rounded-3xl border-black border-[2px] cursor-pointer;
   }
 
   .top-bar {
     @apply lg:px-24 px-10 pt-5 h-24;
   }
+
   button.secondary {
     @apply w-full xs:w-fit lg:text-2xl font-bold text-primary bg-white h-20 px-12 py-[10px] rounded-lg border-primary border-[2px];
+  }
+
+  button.primary {
+    @apply md:text-2xl font-bold text-white h-12 bg-primary md:h-20 px-16 md:py-[10px] rounded-lg border-primary border-[2px];
+  }
+
+  .box {
+    @apply md:flex items-center w-full h-60 max-w-5xl text-center mx-auto p-2 xs:p-12 border-primary border-[2px] rounded-lg;
   }
 }
