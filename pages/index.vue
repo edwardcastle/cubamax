@@ -75,9 +75,9 @@ onMounted(() => {
                   mas <br />
                   opciones
                 </li>
-                <li class="mt-3"><img src="static/icons/palm.svg" alt="" /></li>
-                <li class="mt-3"><img src="static/icons/user.svg" alt="" /></li>
-                <li><img src="static/icons/briefcase.svg" alt="" /></li>
+                <li class="mt-3"><img src="/static/icons/palm.svg" alt="" /></li>
+                <li class="mt-3"><img src="/static/icons/user.svg" alt="" /></li>
+                <li><img src="/static/icons/briefcase.svg" alt="" /></li>
               </ul>
             </div>
           </div>
@@ -90,7 +90,7 @@ onMounted(() => {
       <div class="hidden h-screen xs:flex mt-16">
         <img
           class="object-cover w-full h-screen"
-          src="static/icons/beach.jpg"
+          src="/static/icons/beach.jpg"
         />
         <div class="absolute py-10 grid grid-cols-12">
           <div

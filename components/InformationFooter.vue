@@ -58,7 +58,7 @@ const socialMedia = ref([
           :key="social.id"
         >
           <li class="mx-2">
-            <img :src="`static/icons/${social.img}`" />
+            <img :src="`/static/icons/${social.img}`" />
           </li>
         </ul>
       </div>
