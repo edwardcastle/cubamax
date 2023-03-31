@@ -55,7 +55,7 @@ onMounted(() => {
         <div class="flex justify-between">
           <!-- Logo -->
           <div class="flex-auto my-auto">
-            <img src="static/icons/cubamax.svg" />
+            <img src="/static/icons/cubamax.svg" />
           </div>
           <!-- end Logo -->
 
